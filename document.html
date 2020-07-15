@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .document-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            background: #dfdfdf;
+        }
+
+        .document-body-paper {
+            width: 595px;
+            height: 842px;
+            background: white;
+            padding: 30px;
+        }
+
+        .document-body-paper-top {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .document-body-paper-top-left-text {
+            text-transform: uppercase;
+            width: 41%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 13px;
+            margin-right: 20px;
+        }
+
+        .document-body-paper-top-right-text {
+            text-transform: uppercase;
+            width: 41%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 13px;
+            margin-left: 20px;
+        }
+
+        .border-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .border:first-child {
+            margin-bottom: 5px;
+        }
+
+        .border {
+            height: 2px;
+            width: 98%;
+            background: black;
+        }
+
+        .data-block {
+            display: flex;
+            align-items: flex-end;
+            padding-left: 40px;
+        }
+
+        .day {
+            width: 30px;
+            border-bottom: 1px dotted black;
+            margin-right: 15px;
+        }
+
+        .mouth {
+            width: 50px;
+            border-bottom: 1px dotted black;
+            margin-right: 15px;
+        }
+
+        .year {
+            width: 100px;
+
+        }
+
+        .paper-title-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+        }
+
+        .paper-title {
+            width: 45%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .paper-title-min {
+            width: 55%;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .paper-flex-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 60px;
+        }
+
+        .paper-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-left: 40px;
+            margin-right: 10px;
+        }
+
+        .paper-flex-text {
+            text-align: left;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .paper-flex-block {
+            height: 35px;
+            border: 1px solid #e8e8e8;
+            width: 280px;
+        }
+
+        .mt-5 {
+            margin-top: 20px;
+        }
+
+        .mt-8 {
+            margin-top: 40px;
+        }
+
+        .paper-code-qr {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .qr-code-block{
+            width: 80px;
+            height: 80px;
+            border: 1px solid #e8e8e8;
+            margin-right: 5px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="document-body">
+    <div class="document-body-paper">
+        <div class="document-body-paper-top">
+            <p class="document-body-paper-top-left-text">O`zbekiston Respublikasi Qurilish vazirligi</p>
+
+            <img src="gerb.png" alt="png" width="80">
+
+            <p class="document-body-paper-top-right-text">Andijon Viloyati Qurilish Bosh Boshqarmasi</p>
+        </div>
+        <div class="border-block">
+            <span class="border"></span>
+            <span class="border"></span>
+        </div>
+
+        <div class="data-block">
+            <span class="day"></span>
+            <span class="mouth"></span>
+            <span class="year">2020-йил</span>
+        </div>
+
+        <div class="paper-title-box">
+            <p class="paper-title">
+                Архитектура режалаштириш топшириги № 03 - 01 - 01
+            </p>
+        </div>
+
+        <div class="paper-title-box">
+            <p class="paper-title-min">
+                Рухсат этилган ер майдони курилиш объктини лойихалаш учун
+            </p>
+        </div>
+
+        <div class="paper-flex-center">
+            <div class="paper-flex">
+                <p class="paper-flex-text">Обьект номи:</p>
+
+                <span class="paper-flex-block"></span>
+            </div>
+
+            <div class="paper-flex mt-5">
+                <p class="paper-flex-text">Обьект манзили:</p>
+
+                <span class="paper-flex-block"></span>
+            </div>
+
+            <div class="paper-flex mt-5">
+                <p class="paper-flex-text">Буюртмачи:</p>
+
+                <span class="paper-flex-block"></span>
+            </div>
+
+
+            <div class="paper-flex mt-8">
+                <p class="paper-flex-text">Артим тузган мутахассис:</p>
+
+                <span class="paper-flex-block"></span>
+            </div>
+
+
+            <div class="paper-code-qr mt-5">
+                <span class="qr-code-block"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
