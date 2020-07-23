@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .document-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            background: #dfdfdf;
+        }
+
+        .document-body-paper {
+            width: 595px;
+            height: 842px;
+            background: white;
+            padding: 30px;
+        }
+
+        .document-body-paper-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .paper-top-right-text {
+            text-align: center;
+            font-weight: 700;
+            padding: 0 10px;
+            color: #002060;
+        }
+
+        .border-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .border:first-child {
+            margin-bottom: 3px;
+            height: 5px;
+        }
+
+        .border:last-child {
+            background: #1F4E79;
+        }
+
+        .border {
+            height: 2px;
+            width: 100%;
+            background: #4472C4;
+            margin-bottom: 2px;
+        }
+
+        .border-text {
+            font-size: 10px;
+            margin: 4px 0;
+            width: 100%;
+            color: #1F4E79;
+        }
+
+        .document-header-middle-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .document-title {
+            text-align: center;
+        }
+
+        .mt-5 {
+            margin-top: 3rem;
+        }
+
+        .bold-text {
+            font-weight: 700;
+        }
+
+        .normal-text {
+            font-weight: 400;
+        }
+
+        .empty-block {
+            width: 50%;
+            border-bottom: 1px solid black;
+        }
+
+        .center-empty {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .center-empty-text {
+            text-align: center;
+            font-size: 11px;
+        }
+
+        .right-block {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .w-65 {
+            width: 65%;
+
+        }
+
+        .right-block-border-bottom {
+            display: block;
+            width: 65%;
+            border-bottom: 1px solid;
+        }
+
+        .text-12 {
+            font-size: 12px;
+        }
+
+        .min-number-border {
+            width: 20px;
+            border-bottom: 1px solid black;
+        }
+
+        .ml-2 {
+            margin-left: .50rem;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .text-8 {
+            font-size: 8px;
+        }
+
+        .border-top {
+            border-top: 1px solid black;
+        }
+
+        .pt-1 {
+            padding-top: 2px;
+        }
+
+        .mt-2 {
+            margin-top: 8px;
+        }
+
+        .transform-top {
+            transform: translateY(14px);
+        }
+
+        .d-flex.mt-2 .flex-column {
+            width: 43%;
+        }
+
+        .d-flex.mt-2 .right-block-border-bottom {
+            width: 100%;
+        }
+
+        .d-flex.mt-2 .w-65 {
+            width: 65%;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .text-14 {
+            font-size: 14px;
+        }
+
+        .w-100{
+            width: 100%;
+        }
+
+        .textarea-style{
+            border: none;
+            border-bottom: 1px solid black;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            resize: none;
+        }
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="document-body">
+    <div class="document-body-paper">
+        <div class="document-body-paper-top">
+            <img src="gggg.png" width="80" alt="png">
+
+            <p class="paper-top-right-text">
+                O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI
+                «SHAHARSOZLIK HUJJATLARI EKSPERTIZASI»
+                DAVLAT UNITAR KORXONASI
+
+            </p>
+        </div>
+
+        <div class="border-block">
+            <div class="border"></div>
+            <div class="border"></div>
+
+            <p class="border-text">100011, Toshkent shahri, Abay ko‘chasi, 6-uy, Tel. 244-04-85, Faks: 244-04-85,
+                E-mail:expertiza@davarx.uz, www.minstroy.uz</p>
+            <div class="border"></div>
+        </div>
+
+        <div class="document-header-middle-text">
+            <p>Ташкент ш.</p>
+
+            <p>ЭРИ рахбар</p>
+        </div>
+
+        <h3 class="document-title bold-text mt-5">ЙИҒМА ЭКСПЕРТ ХУЛОСА №</h3>
+        <h4 class="document-title">
+            ишчи лойиҳа бўйича объектини <span class="normal-text">қуриш, реконструкция қилиш, мукаммал ва жорий таъмирлаш, модернизациялаш, қайта
+            жихозлаш</span>
+        </h4>
+        <div class="center-empty">
+            <span>«</span>
+            <div class="empty-block"></div>
+            <span>»</span>
+        </div>
+        <p class="center-empty-text">(лойиҳалаш топшириғи бўйича қурилиш объектининг номи)</p>
+
+        <div class="right-block">
+            <div class="d-flex w-65">
+                <p class="bold-text">Буюртмачи -</p>
+
+                <div class="right-block-border-bottom"></div>
+            </div>
+
+            <div class="d-flex w-65">
+                <p class="bold-text">Бош лойиҳачи -</p>
+
+                <div class="right-block-border-bottom"></div>
+            </div>
+
+            <div class="d-flex w-65">
+                <p class="text-12">Лицензия</p>
+
+                <span class="min-number-border"></span>
+
+                <p class="text-12">- сонли,</p>
+
+                <span class="text-12 ml-2">«</span><span class="min-number-border"></span><span class="text-12">»</span>
+
+                <div class="d-flex">
+                    <span class="text-8 border-top pt-1 transform-top">(қачон, ким томонидан берилган)</span>
+                </div>
+            </div>
+
+            <div class="d-flex w-65 mt-2">
+                <p class="bold-text">Молиялаштириш манбаи -</p>
+
+                <div class="d-flex flex-column transform-top">
+                    <div class="right-block-border-bottom"></div>
+                    <p class="text-8">(агар қарор қабул қилувчи орган томонидан белгиланган бўлса)</p>
+                </div>
+            </div>
+
+            <div class="d-flex w-65 mt-2">
+                <p class="bold-text">Қурилиш тури -</p>
+
+                <div class="d-flex flex-column transform-top w-65">
+                    <div class="right-block-border-bottom"></div>
+                    <p class="text-8">(янги қурилиш, реконструксия, капитал таъмирлаш ва бошқалар.).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column w-65 mt-5">
+                <p class="text-14 bold-text w-65">
+                    1. Лойиҳалаш учун асос.
+                </p>
+
+                <textarea class="mt-2 w-100 textarea-style" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
