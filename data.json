@@ -1,0 +1,223 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3297333,
+          69.28026388888888
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: \"ARABBOY\" МЧЖ   Лойиҳачи ташкилот номи: OOO \"Arx INT design\"   Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Кўп қаватли турар-жой бинолари ҳамда автотураргоҳ қурилиши, Юнусобод тумани, Ц-6 мавзеси, Ш.Рашидов кўчаси"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3709972,
+          69.26543055555555
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: МЧЖ \"GRAVEL SAND FACTORY\"   Лойиҳачи ташкилот номи: \"SITI STROY PROJECT\" MCHJ   Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Ўз ҳудудида турар-жой биноси қурилиши,  Юнусобод тумани, 7-даха, 42,43,48-уйлар оралиғи"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3694806,
+          69.25695833333333
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: МЧЖ \"KID'S ISLAND\"   Лойиҳачи ташкилот номи: NAVOIY LOYIHA MCHJ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "PASTKI QAVATLARIDA MAKTABGACHA TA`LIM MUASSASASI BO`LGAN KO`P QAVATLI TURAR JOY BINOSI, YUNUSOBOD TUMANI, 19-MAVZE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3638361,
+          69.2711
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: МЧЖ SERVICE ATN    Лойиҳачи ташкилот номи: Etalon Project МЧЖ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Кўп қаватли турар жой Матонат кўчаси, 20-уй Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3581583,
+          69.38547472222223
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: GRAND CAPITAL МЧЖ    Лойиҳачи ташкилот номи: “SHARQEVROPROEKT” МЧЖ    Туман: Мирзо Улуғбек",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "PALAZZO кўп қаватли турар-жой бинони қуриш. Буюк Ипак Йули кўчаси М.Улуғбек т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3528944,
+          69.35509722222221
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: PERFECT HOUSE-PLUS МЧЖ    Лойиҳачи ташкилот номи: OOO \"KASIN\"    Туман: Мирзо Улуғбек",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Кўп қаватли турар-жой биноси қуриш. Феруза мавзе, Г-31 кўчаси М.Улуғбек т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3255083,
+          69.29052777777778
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: YODIGAR МЧЖ    Лойиҳачи ташкилот номи: ООО\"GOLD STEP INVEST\"    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Замонавий кўп қаватли турар-жой биноларни қуриш Чингиз Айтматов ва Ниёзбек йули кўчалари кесишувида Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3230056,
+          69.29262222222222
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: STEEL QUALITY BUSINESS МЧЖ    Лойиҳачи ташкилот номи: ARX-DIZAYN SAN'ATI MCHJ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Кўп қаватли уйларниқуриш, Шарофобод, В.Малясов, Ниёзбек ва Лашкарбеги кўчалари оралиғида Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3699667,
+          69.29044999999999
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: COMFORT HOUSE BM МЧЖ    Лойиҳачи ташкилот номи: ENERGY BUILDING CONSULTING МЧЖ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Кўп қаватли турар-жой бинони қуриш, 11-мавзе Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3616417,
+          69.28969722222222
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: PAPER CRAFT МЧЖ    Лойиҳачи ташкилот номи: ООО \"ARX DIZAYN SANATI\"    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Саккиз қаватли иккита турар-жой биналарни қуриш, Хушнова кўчаси, 3-мавзеси Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3398389,
+          69.29568055555555
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: ELITE HOUSE МЧЖ    Лойиҳачи ташкилот номи: OOO ARCH DESIGN SERVICE    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Давлат хизматлари маркази,савдо маркази ва кўп қаватли турар-жой бинони қуриш Богишамол кўчаси Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3228306,
+          69.29265833333334
+        ]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: ARCO GOLD GROUP МЧЖ    Лойиҳачи ташкилот номи: ООО MAGMA PROJECT DEVELOPMENT    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Мавжуд биноларни автотураргох ва савдо маиший хизмат кўрсатиш шахобчалари бўлган кўп қаватли турар жойга ихтисослаштириб рек-ция қилиш. Ниёзбек йули кўчаси, 57-уй Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3598972,69.27997777777777]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: ISKANDAR MAX CONSTRUCTION МЧЖ    Лойиҳачи ташкилот номи: NAVOIY LOYIHA MCHJ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Мавжуд мактабгача таълим муассасаси биносини пастқи қаватида мактабгача таълим муассасаси бўлган кўп қаватли турар-жой биносига ихтисослаштириш ва рек-ция қилиш. 2-мавзе Юнусобод т-н"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.3645139,69.27904722222222]
+      },
+      "properties": {
+        "balloonContent": "Буюртмачи ташкилот номи: SUNNY STROY МЧЖ    Лойиҳачи ташкилот номи: NAVOIY LOYIHA MCHJ    Туман: Юнусобод",
+        "clusterCaption": "Еще одна метка",
+        "hintContent": "Мавжуд савдо-маиший хизмат мажмуасини пастқи қаватларида савдо-маиший хизмат кўрсатиш ва офис шахобчалари бўлган кўп қаватли турар-жой биносига ихтисослаштириб, рек-ция қилиш. 4-мавзе, 69Б-уй Юнусобод т-н"
+      }
+    }
+  ]
+}
